@@ -1,0 +1,130 @@
+const data = [
+  {
+    Question: "Which is the most popular JavaScript framework?",
+    option1: "Angular",
+    option2: "React",
+    option3: "Svelte",
+    option4: "Vue",
+  },
+  {
+    Question: "Which company invented React?",
+    option1: "Google",
+    option2: "Apple",
+    option3: "Netflix",
+    option4: "Facebook",
+  },
+  {
+    Question: "What's the fundamental building block of React apps?",
+    option1: "Blocks",
+    option2: "Components",
+    option3: "Elements",
+    option4: "Effects",
+  },
+  {
+    Question:
+      "What's the name of the syntax we use to describe the UI in React components?",
+    option1: "Babel",
+    option2: "FBJ",
+    option3: "JSX",
+    option4: "ES2015",
+  },
+  {
+    Question: "How does data flow naturally in React apps?",
+    option1: "From children to parents",
+    option2: "From parents to children",
+    option3: "Both ways",
+    option4: "The developers decide",
+  },
+  {
+    Question: "How to pass data into a child component?",
+    option1: "State",
+    option2: "Props",
+    option3: "PropTypes",
+    option4: "Parameters",
+  },
+  {
+    Question: "When to use derived state?",
+    option1: "Whenever the state should not trigger a re-render",
+    option2: "Whenever the state can be computed from another state variable",
+    option3: "Whenever the state can be synchronized with an effect",
+    option4: "Whenever the state should be accessible to all components",
+  },
+  {
+    Question: "What triggers a UI re-render in React?",
+    option1: "Running an effect",
+    option2: "Passing props",
+    option3: "Updating state",
+    option4: "Adding event listeners to DOM elements",
+  },
+  {
+    Question: "When do we directly 'touch' the DOM in React?",
+    option1: "When we need to listen to an event",
+    option2: "When we need to change the UI",
+    option3: "When we need to add styles",
+    option4: "Almost never",
+  },
+  {
+    Question: "In what situation do we use a callback to update state?",
+    option1: "When the updated state is very data-intensive",
+    option2: "When the new state depends on the previous state",
+    option3: "When updating the state will be slow",
+    option4: "When the state update should happen faster",
+  },
+  {
+    Question:
+      "If we pass a function to useState, when will that function be called?",
+    option1: "On each re-render",
+    option2: "The first time we update the state",
+    option3: "Each time we update the state",
+    option4: "Only on the initial render",
+  },
+  {
+    Question:
+      "Which hook to use for an API request on the component's initial render?",
+    option1: "useState",
+    option2: "useEffect",
+    option3: "useRef",
+    option4: "useReducer",
+  },
+  {
+    Question: "Which variables should go into the useEffect dependency array?",
+    option1: "All state and props referenced in the effect",
+    option2: "Usually none",
+    option3: "All our state variables",
+    option4: "All variables needed for cleanup",
+  },
+  {
+    Question: "An effect will always run on the initial render.",
+    option1: "True",
+    option2: "It depends on the dependency array",
+    option3: "False",
+    option4: "It depends on the code in the effect",
+  },
+  {
+    Question: "When will an effect run if it doesn't have a dependency array?",
+    option1: "The first time the component re-renders",
+    option2: "Only when the component mounts",
+    option3: "Only when the component unmounts",
+    option4: "Each time the component is re-rendered",
+  },
+];
+
+const answers = [
+  "option2",
+  "option4",
+  "option2",
+  "option3",
+  "option2",
+  "option2",
+  "option2",
+  "option3",
+  "option4",
+  "option2",
+  "option4",
+  "option2",
+  "option1",
+  "option1",
+  "option4",
+];
+
+export { data, answers };
